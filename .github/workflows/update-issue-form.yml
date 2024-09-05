@@ -3,7 +3,7 @@ name: Update Issue Form
 on:
   push:
     paths:
-      - ./.upptimerc.yml
+      - .upptimerc.yml
   workflow_dispatch: 
 
 jobs:
@@ -20,20 +20,13 @@ jobs:
 
       - name: Parse .upptimerc.yml and update issue form
         run: |
-          # Parse the .upptimerc.yml file to get site names
-          SITES=$(yq '.sites[].name' .upptimerc.yml)
-          
-          # Create the expectedDown dropdown options dynamically, using a safer delimiter
-          OPTIONS=$(echo "$SITES" | sed 's/^/        - /')
+          # Extract the site names and format as a comma-separated list of quoted strings
+          SITES=$(yq eval '.sites[].name' .upptimerc.yml | sed 's/.*/"&"/' | paste -sd, -)
 
-          # Update the issue form with the new options, use `|` as the delimiter to avoid conflicts with `/`
-          sed -i "/id: expectedDown/,/options:/c\ 
-          id: expectedDown\n\
-          attributes:\n\
-            label: \"Expected Services Affected\"\n\
-            description: \"Select the services expected to be affected\"\n\
-            multiple: true\n\
-            options:\n$OPTIONS" .github/ISSUE_TEMPLATE/maintenance-event.yml
+          # Update the Issue Form YAML file with the formatted options
+          yq e ".body[] |= (select(.id == \"expectedDown\").attributes.options = [$SITES])" -i .github/ISSUE_TEMPLATE/maintainance-event-form.yml
+          yq e ".body[] |= (select(.id == \"expectedDegraded\").attributes.options = [$SITES])" -i .github/ISSUE_TEMPLATE/maintainance-event-form.yml
+
 
       - name: Commit and push changes
         run: |
