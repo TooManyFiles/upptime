@@ -32,6 +32,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add .github/ISSUE_TEMPLATE/maintenance-event.yml
+          git add .github/ISSUE_TEMPLATE/maintainance-event-form.yml
           git commit -m "Update Issue Form with dynamic expectedDown options"
           git push
