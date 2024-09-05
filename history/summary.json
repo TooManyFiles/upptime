@@ -4,19 +4,19 @@
     "url": "https://toomanyfiles.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/toomanyfiles.dev.ico",
     "slug": "main-page-too-many-files",
-    "status": "up",
-    "uptime": "81.31%",
-    "uptimeDay": "81.31%",
-    "uptimeWeek": "81.31%",
-    "uptimeMonth": "81.31%",
-    "uptimeYear": "81.31%",
-    "time": 1041,
-    "timeDay": 1041,
-    "timeWeek": 1041,
-    "timeMonth": 1041,
-    "timeYear": 1041,
+    "status": "down",
+    "uptime": "99.85%",
+    "uptimeDay": "99.85%",
+    "uptimeWeek": "99.85%",
+    "uptimeMonth": "99.85%",
+    "uptimeYear": "99.85%",
+    "time": 851,
+    "timeDay": 851,
+    "timeWeek": 851,
+    "timeMonth": 851,
+    "timeYear": 851,
     "dailyMinutesDown": {
-      "2024-09-05": 3
+      "2024-09-05": 0
     }
   },
   {
@@ -25,19 +25,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/mr-comand.toomanyfiles.dev.ico",
     "slug": "about-me-page-mr-comand",
     "status": "up",
-    "uptime": "98.69%",
-    "uptimeDay": "98.69%",
-    "uptimeWeek": "98.69%",
-    "uptimeMonth": "98.69%",
-    "uptimeYear": "98.69%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 559,
     "timeDay": 559,
     "timeWeek": 559,
     "timeMonth": 559,
     "timeYear": 559,
-    "dailyMinutesDown": {
-      "2024-09-05": 3
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Timetable",
@@ -45,18 +43,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "timetable",
     "status": "up",
-    "uptime": "68.71%",
-    "uptimeDay": "68.71%",
-    "uptimeWeek": "68.71%",
-    "uptimeMonth": "68.71%",
-    "uptimeYear": "68.71%",
+    "uptime": "76.93%",
+    "uptimeDay": "76.93%",
+    "uptimeWeek": "76.93%",
+    "uptimeMonth": "76.93%",
+    "uptimeYear": "76.93%",
     "time": 1431,
     "timeDay": 1431,
     "timeWeek": 1431,
     "timeMonth": 1431,
     "timeYear": 1431,
     "dailyMinutesDown": {
-      "2024-09-05": 61
+      "2024-09-05": 59
     }
   },
   {
