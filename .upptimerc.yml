@@ -11,7 +11,6 @@ sites:
     url: $TIMETABLE_URL
   - name: TooManyFiles Ping
     url: toomanyfiles.dev
-    port: 80
     check: "tcp-ping"
     ipv6: true
 
