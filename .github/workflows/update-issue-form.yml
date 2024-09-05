@@ -5,21 +5,28 @@ on:
     paths:
       - ./.upptimerc.yml
   workflow_dispatch: 
+
 jobs:
   update-form:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install yq (YAML parser)
+        run: |
+          sudo add-apt-repository ppa:rmescandon/yq -y
+          sudo apt-get update
+          sudo apt-get install yq -y
+
       - name: Parse .upptimerc.yml and update issue form
         run: |
           # Parse the .upptimerc.yml file to get site names
           SITES=$(yq '.sites[].name' .upptimerc.yml)
           
-          # Create the expectedDown dropdown options dynamically
+          # Create the expectedDown dropdown options dynamically, using a safer delimiter
           OPTIONS=$(echo "$SITES" | sed 's/^/        - /')
 
-          # Update the issue form with the new options
+          # Update the issue form with the new options, use `|` as the delimiter to avoid conflicts with `/`
           sed -i "/id: expectedDown/,/options:/c\ 
           id: expectedDown\n\
           attributes:\n\
