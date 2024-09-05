@@ -1,0 +1,37 @@
+name: Update Issue Form
+
+on:
+  push:
+    paths:
+      - .upptimerc.yml
+
+jobs:
+  update-form:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Parse .upptimerc.yml and update issue form
+        run: |
+          # Parse the .upptimerc.yml file to get site names
+          SITES=$(yq '.sites[].name' .upptimerc.yml)
+          
+          # Create the expectedDown dropdown options dynamically
+          OPTIONS=$(echo "$SITES" | sed 's/^/        - /')
+
+          # Update the issue form with the new options
+          sed -i "/id: expectedDown/,/options:/c\ 
+          id: expectedDown\n\
+          attributes:\n\
+            label: \"Expected Services Affected\"\n\
+            description: \"Select the services expected to be affected\"\n\
+            multiple: true\n\
+            options:\n$OPTIONS" .github/ISSUE_TEMPLATE/maintenance-event.yml
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .github/ISSUE_TEMPLATE/maintenance-event.yml
+          git commit -m "Update Issue Form with dynamic expectedDown options"
+          git push
