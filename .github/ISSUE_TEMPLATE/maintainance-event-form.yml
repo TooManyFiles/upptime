@@ -11,14 +11,14 @@ body:
       value: |
         ## Maintenance Schedule
 
-  - type: datetime
+  - type: input
     id: start
     attributes:
       label: "Start Time"
       description: "When the maintenance window will start"
       value: "2021-08-24T13:00:00.220Z"
 
-  - type: datetime
+  - type: input
     id: end
     attributes:
       label: "End Time"
