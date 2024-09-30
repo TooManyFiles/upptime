@@ -5,12 +5,14 @@ repo: upptime # The name of this repository
 sites:
   - name: Main Page - TooManyFiles
     url: https://toomanyfiles.dev/
+  - name: WAKApi - TooManyFiles
+    url: https://waka.toomanyfiles.dev/
+  - name: Coder - TooManyFiles
+    url: https://coder.toomanyfiles.dev/
   - name: AboutMePage - Mr-Comand
     url: https://mr-comand.toomanyfiles.dev/
   - name: Timetable
     url: $TIMETABLE_URL
-  - name: Coder - TooManyFiles
-    url: https://coder.toomanyfiles.dev/
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
