@@ -4,18 +4,19 @@
     "url": "https://toomanyfiles.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/toomanyfiles.dev.ico",
     "slug": "main-page-too-many-files",
-    "status": "up",
-    "uptime": "99.91%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "99.91%",
-    "uptimeYear": "99.91%",
+    "status": "down",
+    "uptime": "99.90%",
+    "uptimeDay": "99.85%",
+    "uptimeWeek": "99.98%",
+    "uptimeMonth": "99.90%",
+    "uptimeYear": "99.90%",
     "time": 1746,
     "timeDay": 1491,
     "timeWeek": 1553,
     "timeMonth": 1746,
     "timeYear": 1746,
     "dailyMinutesDown": {
+      "2024-10-02": 2,
       "2024-09-05": 34
     }
   },
@@ -24,28 +25,30 @@
     "url": "https://waka.toomanyfiles.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/waka.toomanyfiles.dev.ico",
     "slug": "wak-api-too-many-files",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.93%",
+    "uptimeDay": "99.89%",
+    "uptimeWeek": "99.93%",
+    "uptimeMonth": "99.93%",
+    "uptimeYear": "99.93%",
     "time": 714,
     "timeDay": 889,
     "timeWeek": 714,
     "timeMonth": 714,
     "timeYear": 714,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-02": 2
+    }
   },
   {
     "name": "Coder - TooManyFiles",
     "url": "https://coder.toomanyfiles.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/coder.toomanyfiles.dev.ico",
     "slug": "coder-too-many-files",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.92%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 475,
@@ -53,17 +56,19 @@
     "timeWeek": 540,
     "timeMonth": 475,
     "timeYear": 475,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-02": 1
+    }
   },
   {
     "name": "AboutMePage - Mr-Comand",
     "url": "https://mr-comand.toomanyfiles.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/mr-comand.toomanyfiles.dev.ico",
     "slug": "about-me-page-mr-comand",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 584,
@@ -71,14 +76,16 @@
     "timeWeek": 647,
     "timeMonth": 584,
     "timeYear": 584,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-10-02": 1
+    }
   },
   {
     "name": "Timetable",
     "url": "$TIMETABLE_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "timetable",
-    "status": "up",
+    "status": "down",
     "uptime": "99.84%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -90,6 +97,7 @@
     "timeMonth": 1197,
     "timeYear": 1197,
     "dailyMinutesDown": {
+      "2024-10-02": 0,
       "2024-09-05": 59
     }
   }
