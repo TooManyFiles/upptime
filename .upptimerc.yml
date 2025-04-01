@@ -11,6 +11,10 @@ sites:
     url: https://coder.toomanyfiles.dev/
   - name: AboutMePage - Mr-Comand
     url: https://mr-comand.toomanyfiles.dev/
+  - name: YourSpotify(Stats) - TooManyFiles
+    url: https://spstat.toomanyfiles.dev/
+  - name: YourSpotify(Stats)-API - TooManyFiles
+    url: https://spstat.api.toomanyfiles.dev/
   - name: Timetable
     url: $TIMETABLE_URL
 
