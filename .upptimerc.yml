@@ -9,6 +9,8 @@ sites:
     url: https://waka.toomanyfiles.dev/
   - name: Coder - TooManyFiles
     url: https://coder.toomanyfiles.dev/
+  - name: Matrix - TooManyFiles
+    url: https://matrix.toomanyfiles.dev/
   - name: AboutMePage - Mr-Comand
     url: https://mr-comand.toomanyfiles.dev/
   - name: YourSpotify(Stats) - TooManyFiles
