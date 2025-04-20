@@ -221,19 +221,19 @@
     "url": "https://matrix.toomanyfiles.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/matrix.toomanyfiles.dev.ico",
     "slug": "matrix-too-many-files",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 748,
-    "timeDay": 528,
-    "timeWeek": 748,
-    "timeMonth": 748,
-    "timeYear": 748,
+    "status": "up",
+    "uptime": "99.91%",
+    "uptimeDay": "99.41%",
+    "uptimeWeek": "99.91%",
+    "uptimeMonth": "99.91%",
+    "uptimeYear": "99.91%",
+    "time": 737,
+    "timeDay": 563,
+    "timeWeek": 737,
+    "timeMonth": 737,
+    "timeYear": 737,
     "dailyMinutesDown": {
-      "2025-04-20": 0
+      "2025-04-20": 9
     }
   },
   {
