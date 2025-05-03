@@ -51,11 +51,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/coder.toomanyfiles.dev.ico",
     "slug": "coder-too-many-files",
     "status": "up",
-    "uptime": "38.01%",
+    "uptime": "38.12%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
-    "uptimeYear": "38.01%",
+    "uptimeYear": "38.12%",
     "time": 517,
     "timeDay": 501,
     "timeWeek": 468,
@@ -221,9 +221,9 @@
     "url": "https://matrix.toomanyfiles.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/matrix.toomanyfiles.dev.ico",
     "slug": "matrix-too-many-files",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
@@ -232,7 +232,9 @@
     "timeWeek": 734,
     "timeMonth": 755,
     "timeYear": 755,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-05-03": 0
+    }
   },
   {
     "name": "AboutMePage - Mr-Comand",
