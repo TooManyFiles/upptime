@@ -19,7 +19,8 @@ sites:
     url: https://spstat.api.toomanyfiles.dev/
   - name: Timetable
     url: $TIMETABLE_URL
-
+  - name: DSB
+    url: $DSB_URL
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
