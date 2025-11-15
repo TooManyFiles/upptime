@@ -7,6 +7,8 @@ sites:
     url: https://toomanyfiles.dev/
   - name: WAKApi - TooManyFiles
     url: https://waka.toomanyfiles.dev/
+  - name: Collabora - TooManyFiles
+    url: https://collabora.toomanyfiles.dev/
   - name: Coder - TooManyFiles
     url: https://coder.toomanyfiles.dev/
   - name: Matrix - TooManyFiles
