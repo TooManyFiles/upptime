@@ -1,7 +1,7 @@
 url: $TIMETABLE_URL
-status: up
-code: 200
-responseTime: 540
-lastUpdated: 2025-11-27T23:14:17.215Z
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2025-11-28T22:02:27.109Z
 startTime: 2024-09-05T15:54:48.686Z
 generator: Upptime <https://github.com/upptime/upptime>
