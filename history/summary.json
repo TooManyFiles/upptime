@@ -70,11 +70,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/coder.toomanyfiles.dev.ico",
     "slug": "coder-too-many-files",
     "status": "up",
-    "uptime": "64.42%",
-    "uptimeDay": "2.66%",
-    "uptimeWeek": "0.38%",
+    "uptime": "64.43%",
+    "uptimeDay": "11.44%",
+    "uptimeWeek": "1.63%",
     "uptimeMonth": "59.79%",
-    "uptimeYear": "69.18%",
+    "uptimeYear": "69.21%",
     "time": 603,
     "timeDay": 538,
     "timeWeek": 581,
@@ -197,8 +197,7 @@
       "2024-12-15": 1440,
       "2024-12-14": 1440,
       "2024-12-13": 1440,
-      "2024-12-12": 1440,
-      "2024-12-11": 1440
+      "2024-12-12": 1440
     }
   },
   {
@@ -314,7 +313,7 @@
     "status": "up",
     "uptime": "97.09%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "36.59%",
+    "uptimeWeek": "37.85%",
     "uptimeMonth": "68.50%",
     "uptimeYear": "96.39%",
     "time": 779,
