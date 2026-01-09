@@ -1,7 +1,7 @@
 url: $DSB_URL
-status: down
-code: 404
-responseTime: 400
-lastUpdated: 2026-01-09T10:26:00.076Z
+status: up
+code: 200
+responseTime: 360
+lastUpdated: 2026-01-09T10:48:15.925Z
 startTime: 2025-09-17T14:07:47.966Z
 generator: Upptime <https://github.com/upptime/upptime>
