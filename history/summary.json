@@ -86,7 +86,7 @@
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "99.95%",
-    "uptimeYear": "84.63%",
+    "uptimeYear": "84.64%",
     "time": 610,
     "timeDay": 526,
     "timeWeek": 596,
@@ -174,7 +174,7 @@
     "time": 1001,
     "timeDay": 1011,
     "timeWeek": 1006,
-    "timeMonth": 1076,
+    "timeMonth": 1074,
     "timeYear": 1001,
     "dailyMinutesDown": {
       "2026-02-05": 42,
@@ -360,19 +360,19 @@
     "url": "https://mail.toomanyfiles.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/mail.toomanyfiles.dev.ico",
     "slug": "mail",
-    "status": "down",
-    "uptime": "99.84%",
-    "uptimeDay": "99.84%",
-    "uptimeWeek": "99.84%",
-    "uptimeMonth": "99.84%",
-    "uptimeYear": "99.84%",
-    "time": 2033,
-    "timeDay": 2033,
-    "timeWeek": 2033,
-    "timeMonth": 2033,
-    "timeYear": 2033,
+    "status": "up",
+    "uptime": "72.05%",
+    "uptimeDay": "72.05%",
+    "uptimeWeek": "72.05%",
+    "uptimeMonth": "72.05%",
+    "uptimeYear": "72.05%",
+    "time": 1628,
+    "timeDay": 1628,
+    "timeWeek": 1628,
+    "timeMonth": 1628,
+    "timeYear": 1628,
     "dailyMinutesDown": {
-      "2026-02-05": 0
+      "2026-02-05": 80
     }
   }
 ]
