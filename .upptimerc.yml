@@ -23,6 +23,8 @@ sites:
     url: $TIMETABLE_URL
   - name: DSB
     url: $DSB_URL
+  - name: Mail
+    url: https://mail.toomanyfiles.dev/
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
