@@ -177,17 +177,17 @@
     "url": "https://matrix.toomanyfiles.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/matrix.toomanyfiles.dev.ico",
     "slug": "matrix-too-many-files",
-    "status": "down",
-    "uptime": "98.52%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "99.53%",
-    "time": 1368,
-    "timeDay": 1125,
-    "timeWeek": 1704,
-    "timeMonth": 1770,
-    "timeYear": 1493,
+    "status": "up",
+    "uptime": "98.49%",
+    "uptimeDay": "87.48%",
+    "uptimeWeek": "98.21%",
+    "uptimeMonth": "99.59%",
+    "uptimeYear": "99.50%",
+    "time": 1337,
+    "timeDay": 1373,
+    "timeWeek": 1722,
+    "timeMonth": 1773,
+    "timeYear": 1494,
     "dailyMinutesDown": {
       "2025-09-21": 178,
       "2025-11-12": 27,
@@ -213,7 +213,7 @@
       "2026-06-24": 935,
       "2026-06-23": 168,
       "2026-08-04": 98,
-      "2026-09-15": 0
+      "2026-09-15": 180
     }
   },
   {
