@@ -136,7 +136,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/coder.toomanyfiles.dev.ico",
     "slug": "coder-too-many-files",
     "status": "up",
-    "uptime": "78.73%",
+    "uptime": "78.75%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -176,17 +176,17 @@
     "url": "https://matrix.toomanyfiles.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/matrix.toomanyfiles.dev.ico",
     "slug": "matrix-too-many-files",
-    "status": "up",
+    "status": "down",
     "uptime": "98.58%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.53%",
-    "time": 1386,
-    "timeDay": 1918,
-    "timeWeek": 1892,
-    "timeMonth": 1759,
-    "timeYear": 1571,
+    "time": 1385,
+    "timeDay": 1222,
+    "timeWeek": 1721,
+    "timeMonth": 1720,
+    "timeYear": 1568,
     "dailyMinutesDown": {
       "2025-11-12": 27,
       "2025-11-16": 23,
@@ -211,7 +211,8 @@
       "2026-06-24": 935,
       "2026-06-23": 168,
       "2026-08-04": 98,
-      "2026-09-15": 180
+      "2026-09-15": 180,
+      "2026-10-18": 0
     }
   },
   {
