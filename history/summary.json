@@ -4,17 +4,17 @@
     "url": "https://toomanyfiles.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/toomanyfiles.dev.ico",
     "slug": "main-page-too-many-files",
-    "status": "up",
+    "status": "down",
     "uptime": "99.90%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.97%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.93%",
-    "time": 1275,
-    "timeDay": 2054,
-    "timeWeek": 1800,
-    "timeMonth": 1675,
-    "timeYear": 1398,
+    "time": 1274,
+    "timeDay": 1264,
+    "timeWeek": 1634,
+    "timeMonth": 1636,
+    "timeYear": 1396,
     "dailyMinutesDown": {
       "2025-11-12": 30,
       "2025-11-18": 118,
@@ -23,7 +23,8 @@
       "2025-12-28": 73,
       "2025-12-27": 6,
       "2026-01-09": 22,
-      "2026-03-19": 42
+      "2026-03-19": 42,
+      "2026-10-21": 1
     }
   },
   {
@@ -136,7 +137,7 @@
     "icon": "https://icons.duckduckgo.com/ip3/coder.toomanyfiles.dev.ico",
     "slug": "coder-too-many-files",
     "status": "up",
-    "uptime": "78.82%",
+    "uptime": "78.83%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
@@ -296,17 +297,17 @@
     "url": "https://mr-comand.toomanyfiles.dev/",
     "icon": "https://icons.duckduckgo.com/ip3/mr-comand.toomanyfiles.dev.ico",
     "slug": "about-me-page-mr-comand",
-    "status": "up",
+    "status": "down",
     "uptime": "99.90%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.96%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "99.92%",
     "time": 557,
-    "timeDay": 549,
-    "timeWeek": 575,
-    "timeMonth": 555,
-    "timeYear": 560,
+    "timeDay": 453,
+    "timeWeek": 547,
+    "timeMonth": 549,
+    "timeYear": 559,
     "dailyMinutesDown": {
       "2025-11-12": 26,
       "2025-12-16": 27,
@@ -315,7 +316,8 @@
       "2026-01-09": 22,
       "2026-02-02": 188,
       "2026-03-15": 16,
-      "2026-03-19": 36
+      "2026-03-19": 36,
+      "2026-10-21": 1
     }
   },
   {
